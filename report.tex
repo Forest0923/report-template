@@ -5,9 +5,23 @@
 \usepackage{listings, jlisting}
 \usepackage{amsmath}
 \usepackage{here}
+\usepackage{tuatReport}
 
-\title{情報科学レポート}
+\title{情報工学科レポート}
+\grade{}
+\studentid{}
 \author{}
+\classname{}
+\theme{}
+\teacher{}
+\semester{}
+\credits{}
+\dateOfExpmA{}
+\collaboratorA{}
+\submitA{}
+\deadlineA{}
+
+\setcounter{page}{0}
 \lstset{
   basicstyle = \ttfamily,
   frame = single,
@@ -16,43 +30,8 @@
 }
 
 \begin{document}
-% 表紙
-{\Huge\begin{center}
-  \textbf{情報工学科　レポート}
-\end{center}}
-\begin{table}[h]
-  \centering
-  \begingroup
-  \renewcommand{\arraystretch}{1.3}
-  {\LARGE
-  \begin{tabular}{|c|c|c|c|c|c|}
-    % \toprule[1.5pt]
-    \hline
-    \multicolumn{3}{|c|}{\textbf{実験演習記録}}&\multicolumn{3}{|c|}{\textbf{判定・指示}}\\ \hline
-    \hspace{20truemm}&\textbf{年月日時}&\textbf{共同作業者}&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    1&&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    2&&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    3&&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    &&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    &&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    &&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    \multicolumn{3}{|c|}{\textbf{レポート提出記録}}&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    \hspace{1cm}&\textbf{提出年月日}&\textbf{期限年月日}&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    初&yyyy/mm/dd&yyyy/mm/dd&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    再&&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    &&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    &&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \cline{1-3}
-    &&&\multicolumn{3}{|@{\hspace{6cm}}|}{}\\ \hline
-    \multicolumn{2}{|c|}{\textbf{科目名}}&\textbf{担当教員}&\textbf{学年}&\textbf{学期}&\textbf{単位}\\ \hline
-    \multicolumn{2}{|c|}{}&&&&\\ \hline
-    \multicolumn{3}{|c|}{\textbf{テーマ名}}&\textbf{学籍番号}&\multicolumn{2}{|c|}{\textbf{氏名}}\\ \hline
-    \multicolumn{3}{|c|}{}&&\multicolumn{2}{|c|}{}\\ \hline
-  \end{tabular}
-  }
-  \endgroup
-\end{table}
-% //表紙
-
+\maketitle
+\thispagestyle{empty}
 \section{目的}
 % 目的
 % //目的
