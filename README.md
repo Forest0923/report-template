@@ -3,7 +3,7 @@ TUAT，S科用のレポートテンプレートです．
 # 使い方
 - 次のコマンドでテンプレートをダウンロードする
 ```
-git clone https://github.com/Forest0923/TUAT_S_Template.git report
+git clone https://github.com/Forest0923/report-template.git report
 ```
 - .report/report.texにレポートを記述する
 - platexでコンパイルし，dvipdfmxでpdf化する
