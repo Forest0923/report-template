@@ -5,7 +5,7 @@ TUAT，S科用のレポートテンプレートです．
 ```
 git clone https://github.com/Forest0923/report-template.git report
 ```
-- .report/report.texにレポートを記述する
+- ./report/report.texにレポートを記述する
 - platexでコンパイルし，dvipdfmxでpdf化する
 # 注意点
 ## 表紙用のstyファイル
