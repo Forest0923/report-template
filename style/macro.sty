@@ -1,0 +1,22 @@
+\usepackage[cache=false]{minted}
+\usepackage{xcolor}
+\usepackage{here}
+
+\definecolor{code-bg}{rgb}{0.95, 0.95, 0.95}
+
+\newenvironment{code}[2][]
+{\VerbatimEnvironment\begin{minted}[breaklines, frame=lines, bgcolor=code-bg, #1]{#2}}
+{\end{minted}}
+
+\newcommand{\codefromfile}[3][]{
+  \inputminted[breaklines, frame=lines, bgcolor=code-bg, #1]{#2}{#3}
+}
+
+\newcommand{\myfig}[4][width=5cm]{
+  \begin{figure}[H]
+    \centering
+    \includegraphics[#1]{#2}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+}

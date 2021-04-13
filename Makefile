@@ -11,7 +11,7 @@ report.pdf: report.dvi
 
 # Commands
 pdf:
-	make report.pdf
+	make report.pdf && make clean
 
 clean:
 	rm -f *.log *.aux *.cls *.dvi
