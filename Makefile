@@ -14,4 +14,4 @@ pdf:
 	make report.pdf && make clean
 
 clean:
-	rm -f *.log *.aux *.cls *.dvi
+	rm -f *.log *.aux *.dvi
