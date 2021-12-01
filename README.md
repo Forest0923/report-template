@@ -55,7 +55,7 @@ int main(){
 or
 
 ```tex
-\codeFile{c}{path2code}
+\codefromfile{c}{path2code}
 ```
 
 - If you need line numbers:
